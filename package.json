@@ -1,0 +1,20 @@
+{
+  "name": "mern-stack-application",
+  "version": "1.0.0",
+  "description": "Social Network for Developers",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "author": "Carey Okal",
+  "license": "MIT",
+  "dependencies": {
+    "config": "^3.3.12",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.1",
+    "nodemon": "^3.1.9"
+  }
+}
